@@ -129,11 +129,6 @@ Identity Hate: ██░░░░░░░░░░░░░ 10%
 - `pandas==2.1.4`: Data manipulation
 - `scikit-learn==1.3.2`: Evaluation metrics
 
-### Model Configuration
-- **Sequence Length**: 128 tokens
-- **Batch Size**: 16 (for training)
-- **Learning Rate**: 2e-5
-- **Threshold**: 0.5 for binary classification
 
 ## 📈 Use Cases
 
@@ -169,5 +164,5 @@ For questions or feedback, please open an issue on GitHub.
 
 ---
 
-**Made with ❤️ for promoting healthier digital communication**
+**Made for promoting healthier digital communication**
 
