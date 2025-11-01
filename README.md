@@ -75,11 +75,10 @@ The app will open in your browser at `http://localhost:8501`
 - **Loss Function**: Binary Cross-Entropy
 - **Optimizer**: AdamW
 
-### Using Pre-trained Model
-CleanSpeak uses **unitary/toxic-bert** from Hugging Face, a pre-trained model fine-tuned on toxic comment classification tasks. No training required!
+###This repository contains a custom fine-tuned transformer model for toxic comment detection.
+The model was trained from scratch using the Jigsaw Toxic Comment Classification dataset and is designed to detect multiple forms of online toxicity.
 
 ## 📊 Evaluation Metrics
-
 - Accuracy per label
 - Macro F1-score
 - ROC-AUC per class
