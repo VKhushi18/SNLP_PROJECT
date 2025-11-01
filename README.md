@@ -71,7 +71,6 @@ The app will open in your browser at `http://localhost:8501`
 
 ### Model
 - **Base Model**: distilbert-base-uncased (Hugging Face)
-- **Classification Head**: 6 sigmoid outputs (multi-label)
 - **Loss Function**: Binary Cross-Entropy
 - **Optimizer**: AdamW
 
