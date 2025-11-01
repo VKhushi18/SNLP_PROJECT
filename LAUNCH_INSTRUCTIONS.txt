@@ -1,0 +1,87 @@
+╔══════════════════════════════════════════════════════════════╗
+║    💬 CleanSpeak: AI Toxic Comment Detector                 ║
+║              LAUNCH INSTRUCTIONS                             ║
+╚══════════════════════════════════════════════════════════════╝
+
+🚀 QUICK LAUNCH (3 COMMANDS):
+
+1️⃣  ./setup.sh
+
+2️⃣  source venv/bin/activate
+
+3️⃣  streamlit run app.py
+
+═══════════════════════════════════════════════════════════════
+
+📋 WHAT YOU NEED:
+
+✓ Python 3.8 or higher
+✓ Internet connection (for model download)
+✓ 5 minutes for setup
+✓ 500MB disk space
+
+═══════════════════════════════════════════════════════════════
+
+🎯 FIRST TIME SETUP:
+
+Step 1: Run setup script
+   ./setup.sh
+
+Step 2: Activate virtual environment
+   source venv/bin/activate
+   (On Windows: venv\Scripts\activate)
+
+Step 3: Launch the app
+   streamlit run app.py
+
+═══════════════════════════════════════════════════════════════
+
+⏱️ EXPECTED TIMELINE:
+
+├─ Setup script:         ~30 seconds
+├─ Model download:       ~2-3 minutes (first run only)
+├─ App startup:          ~10 seconds
+└─ Ready to use!         ✅
+
+═══════════════════════════════════════════════════════════════
+
+🎨 WHAT YOU'LL SEE:
+
+1. Beautiful gradient UI loads
+2. Text input box appears
+3. "Detect Toxicity" button ready
+4. Type a comment and click!
+5. Get instant Yes/No result
+
+═══════════════════════════════════════════════════════════════
+
+📖 DOCUMENTATION FILES:
+
+• README.md          - Full documentation
+• QUICK_START.md     - Quick reference
+• DEMO.md            - Example scenarios
+• PROJECT_SUMMARY.md - Project overview
+
+═══════════════════════════════════════════════════════════════
+
+🐛 TROUBLESHOOTING:
+
+Problem: "command not found: streamlit"
+Fix: Activate venv first: source venv/bin/activate
+
+Problem: Model download fails
+Fix: Check internet connection, retry
+
+Problem: Port 8501 in use
+Fix: streamlit run app.py --server.port 8502
+
+═══════════════════════════════════════════════════════════════
+
+✨ READY TO PRESENT!
+
+Your app will open at: http://localhost:8501
+
+═══════════════════════════════════════════════════════════════
+
+Made with ❤️  for promoting healthy digital communication
+
